@@ -1,0 +1,22 @@
+{
+  "name": "modulo-db",
+  "version": "1.0.0",
+  "description": "platforma simple -DB Module",
+  "main": "index.js",
+  "scripts": {
+   "lint":"standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bandone23/node-B.git"
+  },
+  "author": "Bryan Escalona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bandone23/node-B/issues"
+  },
+  "homepage": "https://github.com/Bandone23/node-B#readme",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
