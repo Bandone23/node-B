@@ -4,7 +4,7 @@
   "description": "platforma simple -DB Module",
   "main": "index.js",
   "scripts": {
-   "lint":"standard"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Bandone23/node-B#readme",
   "devDependencies": {
     "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.2.9"
   }
 }
