@@ -9,8 +9,12 @@ module.exports = function setupMetricModel (config) {
 
   // se define la estructura que tendra la tabla de la base de datos
   return sequelize.define('metric', {
-    uuid: {
+    type: {
       type: Sequelize.STRING,
+      allowNull: false
+    },
+    value: {
+      type: Sequelize.TEXT,
       allowNull: false
     }
 

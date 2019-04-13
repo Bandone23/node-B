@@ -4,6 +4,7 @@
   "description": "platforma simple -DB Module",
   "main": "index.js",
   "scripts": {
+    "setup":"DEBUG=modulo-db:* node setup.js",
     "lint": "standard"
   },
   "repository": {
@@ -20,6 +21,7 @@
     "standard": "^12.0.1"
   },
   "dependencies": {
+    "debug": "^4.1.1",
     "pg": "^7.9.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^5.2.9"
